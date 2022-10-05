@@ -18,12 +18,12 @@ class hash
 void hash::directhashing(int n)
 {
 	cout<<"entre0 key\n";
-	for (int i + 0, i<10,i++);
+	for (int i = 0; i<10; i++)
 	cout<<a[i];
 	for(int key=0;key<n;key++)
 	{
-		cin>>X;
-		a[X]=X;
+		cin>>x;
+		a[x]=x;
 		
 	}
 	display(n);
@@ -40,7 +40,8 @@ void hash::subtraction(int n)
 		index=x-b;
 		a[index]=x;
 	}
-	display
+	display(n);
+
 }
 void hash::divisionmodulo(int n)
 {
@@ -80,7 +81,7 @@ void hash::foldshift(int n)
 		if (a[hashval]=-1)
 		a[hashval]=x;
 		else 
-		linearprob(hashval,x)
+		linearprob(hashval,x);
 		
 	}
 	display(n);	
@@ -95,7 +96,7 @@ void hash::display(int n)
 {
 	cout<<"Elements are";
 	for (int i=0;i<10;i++)
-	cout<<"\nposition:"i<<i<<"element:"<<a[i];
+	cout<<"\nposition:"<<i<<"element:"<<a[i];
 	
 }
 int main()
@@ -105,7 +106,7 @@ int main()
 	cout<<"enter number of keys\n";
 	cin>>n;
 	for (int i=0;i<10;i++)
-	h1.a[I]=-1;
+	h1.a[i]=-1;
 	cout<<"1.direct hashing\n";
 	cout<<"2.subtraction\n";
 	cout<<"3.division modulo\n";
@@ -118,7 +119,7 @@ int main()
 			{h1.directhashing(n);
 			break;
 			}
-			case 2;{ h1,subtraction(n);
+			case 2:{ h1.subtraction(n);
 				break;
 			}
 			case 3:{h1.divisionmodulo(n);
